@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Force HTML Source",
+  "version": "1.0",
+  "description": "Bypasses website blocks to view HTML source code.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "action": {
+    "default_title": "View HTML Source"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "force-html-source@jason9075.me"
+    }
+  }
+}

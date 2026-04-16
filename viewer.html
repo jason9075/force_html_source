@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Captured HTML Source</title>
+  <link rel="stylesheet" href="viewer.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Captured HTML Source</h1>
+    <div class="toolbar">
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search text...">
+        <span id="searchStats">0/0</span>
+        <button id="prevBtn" class="icon-btn" title="Previous">▲</button>
+        <button id="nextBtn" class="icon-btn" title="Next">▼</button>
+      </div>
+      <button id="copyBtn">Copy to Clipboard</button>
+    </div>
+  </div>
+  <div class="content">
+    <pre><code id="codeBlock" class="language-html">Loading...</code></pre>
+  </div>
+  <script src="beautify-html.js"></script>
+  <script src="viewer.js"></script>
+</body>
+</html>
